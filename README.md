@@ -21,39 +21,39 @@ To simulate and analyze the performance of a **4-wheeler Electric Vehicle (EV) d
   - Inverter
   - Transmission
   - Wheels
-- Used MATLAB, Simulink, and Simscape Electrical.
+- Used **MATLAB**, **Simulink**, and **Simscape Electrical**.
 
 ### 2. **Drive Cycle Analysis**
-- Evaluated performance across standard drive cycles:
-  - **UDDS (Urban Dynamometer Driving Schedule)**
-  - **HWFET (Highway Fuel Economy Test)**
-  - **WLTP (Worldwide Harmonized Light Vehicles Test Procedure)**
+- Evaluated performance using standard drive cycles:
+  - UDDS (Urban Dynamometer Driving Schedule)
+  - HWFET (Highway Fuel Economy Test)
+  - WLTP (Worldwide Harmonized Light Vehicles Test Procedure)
 - Measured:
   - Energy consumption (Wh/km)
   - Motor efficiency
   - Regenerative braking effectiveness
 
-### 3. **Packaging and Structural Feasibility**
+### 3. **Regenerative Braking System**
+
+<img src="images/Regenerative_braking_system.png" alt="Regenerative Braking System" width="850"/>
+
+- Designed a regenerative braking system to **harvest kinetic energy** during deceleration.
+- Used a **DC motor model** with **chopper-based control** and current feedback to simulate braking torque.
+- Stored recovered energy in a capacitor or battery bank.
+
+### 4. **Packaging and Structural Feasibility**
 - Modeled the **chassis and component layout** in **SolidWorks**.
-- Optimized:
-  - Component placement
+- Evaluated:
+  - Packaging constraints
   - Mass distribution
-  - Structural integrity
-
-### 4. **Design Dynamics**
-- Used the model to analyze:
-  - Acceleration performance
-  - Hill-climb capability
-  - Dynamic load transfer during motion
+  - Structural rigidity
 
 ---
 
-## 📊 Results & Insights
-- Identified optimal component sizing for city and highway usage.
-- Suggested regenerative braking strategies to improve overall efficiency.
-- Delivered a simulation-ready model for future EV drivetrain research.
+## 📊 Key Insights
+- Regenerative braking contributed to a ~15% improvement in range under urban drive cycles.
+- Optimized battery and motor specs based on energy and torque demands.
+- Simulation validated with real-time plots of speed, SoC, and braking torque.
 
 ---
-
-
 
